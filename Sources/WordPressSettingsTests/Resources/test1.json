@@ -4,6 +4,77 @@
   "color": null,
   "pages": [
     {
+      "title": "Security",
+      "description": "Your site is protected by Jetpack. You\u2019ll be notified if anything needs attention.",
+      "settings": [],
+      "groups": [
+        {
+          "title": "Backups and security scanning",
+          "header_text": null,
+          "footer_text": null,
+          "settings": [
+            {
+              "type": "bool",
+              "key": "automated_scanning",
+              "value": false,
+              "default": null,
+              "description": null,
+              "allowedValues": null,
+              "requiredCapability": null
+            }
+          ]
+        },
+        {
+          "title": "Downtime monitoring",
+          "header_text": null,
+          "footer_text": "Get alerts if your site goes offline. Alerts are sent to your WordPress.com account\u2197 email address.",
+          "settings": [
+            {
+              "type": "bool",
+              "key": "downtime_monitoring",
+              "value": false,
+              "default": null,
+              "description": null,
+              "allowedValues": null,
+              "requiredCapability": null
+            }
+          ]
+        },
+        {
+          "title": "Firewall",
+          "header_text": null,
+          "footer_text": "Protect your site with Jetpack's Web Application Firewall",
+          "settings": [
+            {
+              "type": "bool",
+              "key": "enable_firewall",
+              "value": false,
+              "default": null,
+              "description": null,
+              "allowedValues": null,
+              "requiredCapability": null
+            }
+          ]
+        },
+        {
+          "title": "Brute force protection",
+          "header_text": null,
+          "footer_text": "Prevent bots and hackers from attempting to log in to your website with common username and password combinations.",
+          "settings": [
+            {
+              "type": "bool",
+              "key": "enable_bruteforce_protection",
+              "value": false,
+              "default": null,
+              "description": null,
+              "allowedValues": null,
+              "requiredCapability": null
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "Sharing",
       "description": "Share your content to social media, reaching new audiences and increasing engagement.",
       "settings": [],
