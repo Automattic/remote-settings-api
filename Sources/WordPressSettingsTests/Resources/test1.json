@@ -1,0 +1,64 @@
+{
+  "title": "Jetpack",
+  "icon": null,
+  "color": null,
+  "pages": [
+    {
+      "title": "Sharing",
+      "description": "Share your content to social media, reaching new audiences and increasing engagement.",
+      "settings": [],
+      "groups": [
+        {
+          "title": "Jetpack Social",
+          "header_text": "Enable Jetpack Social and connect your social accounts to automatically share your content with your followers with a single click. When you publish a post, you will be able to share it on all connected accounts.",
+          "footer_text": null,
+          "settings": [
+            {
+              "type": "bool",
+              "key": "jetpack_social",
+              "value": false,
+              "default": null,
+              "description": null,
+              "allowedValues": null,
+              "requiredCapability": null
+            }
+          ]
+        },
+        {
+          "title": "Sharing Buttons",
+          "header_text": "Add sharing buttons so visitors can share your posts and pages on social media with a couple of quick clicks.",
+          "footer_text": null,
+          "settings": [
+            {
+              "type": "bool",
+              "key": "add_sharing_buttons_to_posts",
+              "value": false,
+              "default": null,
+              "description": null,
+              "allowedValues": null,
+              "requiredCapability": null
+            }
+          ]
+        },
+        {
+          "title": "Like Buttons",
+          "header_text": "The Like button is a way for people on WordPress.com to show their appreciation for your content.",
+          "footer_text": null,
+          "settings": [
+            {
+              "type": "bool",
+              "key": "add_sharing_buttons_to_posts",
+              "value": false,
+              "default": null,
+              "description": null,
+              "allowedValues": null,
+              "requiredCapability": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "groups": [],
+  "settings": []
+}
